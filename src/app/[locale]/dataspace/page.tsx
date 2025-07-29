@@ -13,6 +13,7 @@ export default async function Page() {
             return await fetchCatalogs();
         } catch (e) {
             console.error(e);
+            return [];
         }
     }
 
